@@ -3,9 +3,9 @@
 // imports
 import express from 'express'
 import cors from 'cors'
-import { graphqlHTTP } from 'express-graphql'
-import { createConnection } from 'typeorm'
-import { schema } from './schema'
+import { graphqlHTTP } from 'express-graphql' // for graphql
+import { createConnection } from 'typeorm' // for crating & mutating tables
+import { schema } from './schema' // with the query & mutation
 import { Users } from './entities/UsersEntities' // tables
 
 // setup
