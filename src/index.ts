@@ -34,7 +34,7 @@ const main = async() => {
         graphiql: true
     }))
 
-    app.listen(5001, () => console.log('server running'))
+    app.listen(5000, () => console.log('server running'))
 }
 
 main().catch(err => console.log(err))
